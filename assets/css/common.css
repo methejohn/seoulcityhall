@@ -1,0 +1,71 @@
+.blind{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0,0,0,0);
+    margin: -1px;
+}
+
+.headline{
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 1.35em;
+}
+
+
+.flex1 .swiper .control-area [class*="btn-"],
+.footer .group-bottom .qna-area,
+.sc-banner .control-area [class*="btn-"],
+.sc-news .link-all::after,
+.flex2 .sc-board .link-more,
+.flex1 .sc-visual .swiper [class*="btn-"],
+.header .group-bottom form fieldset .btn-search,
+.header .group-top .link-logo{
+    background-image: url(../images/sp-bg1.png);
+    background-repeat: no-repeat;
+}
+
+.flex1 .group-left [class*="ic-"]{
+    background-image: url(../images/icon.png);
+    background-repeat: no-repeat;
+}
+
+.sc-info .info-item a::before{
+    background-image: url(../images/sp-bg2.png);
+    background-repeat: no-repeat;
+}
+
+.sc-mainservice .service-item [class*="ic-"]{
+    background-image: url(../images/icon1.png);
+    background-repeat: no-repeat;
+}
+
+.sc-media .sns-item [class*="link-"]{
+    background-image: url(../images/sns-icon.png);
+    background-repeat: no-repeat;
+}
+
+.footer .sns-item [class*="link-"]{
+    background-image: url(../images/sns-icon2.png);
+    background-repeat: no-repeat;
+}
+
+#skipNav{
+    position: absolute;
+}
+#skipNav a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 150px;
+    height: 50px;
+    background: #000;
+    color: #fff;
+    transform: translateY(-100%);
+}
+#skipNav a:active,
+#skipNav a:focus{
+    transform: translateY(0);
+}
